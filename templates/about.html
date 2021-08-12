@@ -1,0 +1,27 @@
+{% import "macros/page.html" as page_macros %}
+{% extends "index.html" %}
+
+{% block extra_head %}
+<script src="https://kit.fontawesome.com/fc532e6b81.js" crossorigin="anonymous"></script>
+<style>
+  .icon {
+    color: inherit;
+  }
+  .icon:hover, .icon:active, .icon:focus {
+    color: inherit;
+    border: unset;
+  }
+</style>
+{% endblock extra_head %}
+
+{% block content %}
+
+<center>
+  <h1>kiwiyou</h1>
+  <p>Rust developer</p>
+  <a class="icon" href="https://github.com/kiwiyou" target="_blank"><i class="fab fa-github-alt"></i></a>
+  <a class="icon" href="https://twitter.com/giwiyou" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a class="icon" href="https://t.me/kiwiyou" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+</center>
+
+{% endblock content %}
