@@ -15,6 +15,17 @@ taxonomies = [
 ]
 
 title = "kiwiyou's blog"
+description = "kiwiyou의 블로그입니다."
+
+default_language = "ko"
+
+[languages.en]
+title = "kiwiyou's blog"
+description = "Welcome to kiwiyou's blog!"
+taxonomies = [
+  { name = "categories", rss = true, paginate_by = 5 },
+  { name = "tags", rss = true, paginate_by = 5 },
+]
 
 [markdown]
 # Whether to do syntax highlighting
