@@ -33,17 +33,17 @@ $$1 - \epsilon \lt \sin(n) \lt 1 + \epsilon$$
 $$\sin^{-1}(1 - \epsilon) \lt n \lt \sin^{-1}(1 + \epsilon)$$
 $$(4m + 1)\pi/2 - \epsilon' \lt n \lt (4m + 1)\pi/2 + \epsilon'$$
 
-즉 $(4m + 1)/2$에 충분히 가까운 자연수 $n$을 찾을 수 있는지의 문제로 귀결됩니다.
+즉 $(4m + 1)\pi/2$에 충분히 가까운 자연수 $n$을 찾을 수 있는지의 문제로 귀결됩니다.
 
 # 역발상
 
 위에서는 자연수 $n$을 구간 $((4m + 1)\pi/2 - \epsilon', (4m + 1)\pi/2 + \epsilon')$에 맞추려 했다면, 이번엔 역으로 $(4m + 1)\pi/2$를 $(n, n + 1)$에 맞추려 해봤습니다.
 
-$\{x\} =$ $x$의 소수 부분, $f(n) = (4n + 1)\pi/2$라 두겠습니다.
+$\\{x\\} =$ $x$의 소수 부분, $f(n) = (4n + 1)\pi/2$라 두겠습니다.
 
 $$
 \exists p, q \in \Z^+ (p \neq q) \\\\
-\{f(p)\} = \{f(q)\} \\\\
+\{f(p)\\} = \\{f(q)\\} \\\\
 \Rightarrow f(p) - \lfloor f(p) \rfloor = f(q) - \lfloor f(q) \rfloor \\\\
 \Rightarrow 2(p - q)\pi = \lfloor f(p) \rfloor - \lfloor f(q) \rfloor
 $$
@@ -54,22 +54,22 @@ $$
 
 $$
 \exists p, q (p \neq q) \\\\
-0 \lt |\{f(p)\} - \{f(q)\}| \lt \frac{1}{n}
+0 \lt |\\{f(p)\\} - \\{f(q)\\}| \lt \frac{1}{n}
 $$
 
-$M \left|\{f(p)\} - \{f(q)\}\right| \leq 1$인 최대의 $M$을 잡으면
+$M \left|\\{f(p)\\} - \\{f(q)\\}\right| \leq 1$인 최대의 $M$을 잡으면
 
 $$
-\forall i \in \{0, 1, \cdots, n-1\}\ \exists m \in \{1, 2, \cdots, M\} \\\\
-m \left|\{f(p)\} - \{f(q)\} \right| \in \left[\frac{i}{n}, \frac{i + 1}{n} \right]
+\forall i \in \\{0, 1, \cdots, n-1\\}\ \exists m \in \\{1, 2, \cdots, M\\} \\\\
+m \left|\\{f(p)\\} - \\{f(q)\\} \right| \in \left[\frac{i}{n}, \frac{i + 1}{n} \right]
 $$
 
-$m\left|\{f(p)\} - \{f(q)\}\right| = \{2\pi m|p - q|\}$이므로
+$m\left|\\{f(p)\\} - \\{f(q)\\}\right| = \\{2\pi m|p - q|\\}$이므로
 
-$$\left\\{2\pi m|p - q| + \frac{\pi}{2}\right\\} = \{f(m|p-q|)\} \in \left[\frac{i}{n}, \frac{i + 1}{n}\right] \cap [0, 1)$$
+$$\left\\{2\pi m|p - q| + \frac{\pi}{2}\right\\} = \\{f(m|p-q|)\\} \in \left[\frac{i}{n}, \frac{i + 1}{n}\right] \cap [0, 1)$$
 
 이제 충분히 큰 $n$에 대해
-$(4m\pi + 1) / 2 \lt \lfloor(4m\pi + 1)/2\rfloor + 1/n$인 $m$을 잡을 수 있으므로, 수열 $\{a_i\}$를 $n = i$일 때 $\lfloor(4m\pi + 1)/2\rfloor$로 두면
+$(4m\pi + 1) / 2 \lt \lfloor(4m\pi + 1)/2\rfloor + 1/n$인 $m$을 잡을 수 있으므로, 수열 $\\{a_i\\}$를 $n = i$일 때 $\lfloor(4m\pi + 1)/2\rfloor$로 두면
 
 $$\lim_{n\to\infty}\sin(a_n)=1$$
 
