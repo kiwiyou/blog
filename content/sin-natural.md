@@ -73,3 +73,7 @@ $(4m\pi + 1) / 2 \lt \lfloor(4m\pi + 1)/2\rfloor + 1/n$인 $m$을 잡을 수 있
 $$\lim_{n\to\infty}\sin(a_n)=1$$
 
 따라서 $\sup(\sin(\N)) = 1$입니다.
+
+## 참고
+
+풀이에 [이곳](https://math.stackexchange.com/a/272713)을 많이 참고했습니다.
