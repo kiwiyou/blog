@@ -14,11 +14,11 @@ categories = [
 
 다음과 같은 집합을 생각해 봅니다.
 
-$$A = \left\{ \sin(n) | n \in \N \right\}$$
+$$A = \left\\{ \sin(n) | n \in \N \right\\}$$
 
 $\sup(A)$는 1일까요?
 
-$$B = \left\{ \sin(q) | q \in \mathbb{Q} \right\}$$
+$$B = \left\\{ \sin(q) | q \in \mathbb{Q} \right\\}$$
 $$\sup(B) = 1$$
 
 유리수의 경우에는 $\pi/2$에 충분히 가까운 유리수를 잡을 수 있기에 직관적으로 위 명제가 성립합니다.
@@ -66,7 +66,7 @@ $$
 
 $m\left|\{f(p)\} - \{f(q)\}\right| = \{2\pi m|p - q|\}$이므로
 
-$$\left\{2\pi m|p - q| + \frac{\pi}{2}\right\} = \{f(m|p-q|)\} \in \left[\frac{i}{n}, \frac{i + 1}{n}\right] \cap [0, 1)$$
+$$\left\\{2\pi m|p - q| + \frac{\pi}{2}\right\\} = \{f(m|p-q|)\} \in \left[\frac{i}{n}, \frac{i + 1}{n}\right] \cap [0, 1)$$
 
 이제 충분히 큰 $n$에 대해
 $(4m\pi + 1) / 2 \lt \lfloor(4m\pi + 1)/2\rfloor + 1/n$인 $m$을 잡을 수 있으므로, 수열 $\{a_i\}$를 $n = i$일 때 $\lfloor(4m\pi + 1)/2\rfloor$로 두면
