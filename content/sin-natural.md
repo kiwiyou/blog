@@ -43,7 +43,7 @@ $\\{x\\} =$ $x$의 소수 부분, $f(n) = (4n + 1)\pi/2$라 두겠습니다.
 
 $$
 \exists p, q \in \Z^+ (p \neq q) \\\\
-\{f(p)\\} = \\{f(q)\\} \\\\
+\\{f(p)\\} = \\{f(q)\\} \\\\
 \Rightarrow f(p) - \lfloor f(p) \rfloor = f(q) - \lfloor f(q) \rfloor \\\\
 \Rightarrow 2(p - q)\pi = \lfloor f(p) \rfloor - \lfloor f(q) \rfloor
 $$
