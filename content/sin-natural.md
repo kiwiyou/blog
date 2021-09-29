@@ -65,6 +65,7 @@ m \left|\{f(p)\} - \{f(q)\} \right| \in \left[\frac{i}{n}, \frac{i + 1}{n} \righ
 $$
 
 $m\left|\{f(p)\} - \{f(q)\}\right| = \{2\pi m|p - q|\}$이므로
+
 $$\left\{2\pi m|p - q| + \frac{\pi}{2}\right\} = \{f(m|p-q|)\} \in \left[\frac{i}{n}, \frac{i + 1}{n}\right] \cap [0, 1)$$
 
 이제 충분히 큰 $n$에 대해
